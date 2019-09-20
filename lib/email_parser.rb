@@ -1,7 +1,10 @@
 class EmailAddressParser
 
    attr_accessor
-
+  
+    def initialize(email_addresses)
+      @email_addresses = email_addresses
+    end  
 
 
 end
