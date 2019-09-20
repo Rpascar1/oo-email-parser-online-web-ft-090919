@@ -15,6 +15,7 @@ class EmailAddressParser
         if @email_addresses[email] == email
           @email_addresses[email].delete
         end
+      end
       
   
     end  
