@@ -9,7 +9,7 @@ class EmailAddressParser
     end  
 
     def parse
-      @email_addresses
+      @@email_list << @email_addresses
       
   
     end  
