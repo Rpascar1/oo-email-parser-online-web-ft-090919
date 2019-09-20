@@ -13,6 +13,7 @@ class EmailAddressParser
       @email_addresses.each do |email|
       if @email_addresses.include? email
         @email_addresses[email].delete
+      end
     end  
     
     
