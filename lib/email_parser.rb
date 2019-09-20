@@ -8,7 +8,7 @@ class EmailAddressParser
     end  
 
     def parse
-      @email_addresses.to_a.join(",")
+      @email_addresses.split.join(",").to_a
     end  
     
     
