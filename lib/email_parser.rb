@@ -1,6 +1,5 @@
 class EmailAddressParser
   
-    @@email_list = []
   
    attr_accessor
   
