@@ -1,5 +1,6 @@
 class EmailAddressParser
   
+    @@email_list = []
   
    attr_accessor
   
@@ -8,7 +9,7 @@ class EmailAddressParser
     end  
 
     def parse
-      @email_addresses.split.join(",")
+      @@email_list << @email_addresses.split
     end  
     
     
