@@ -9,7 +9,8 @@ class EmailAddressParser
     end  
 
     def parse
-      @email_addresses.strip
+      @email_addresses = @email_addresses.strip
+      @email_addresses.join
     end  
     
     
