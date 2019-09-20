@@ -14,6 +14,7 @@ class EmailAddressParser
       @email_addresses.each do |email|
         if @email_addresses[email] == email
           @email_addresses[email].delete
+        end
       
   
     end  
