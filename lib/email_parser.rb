@@ -15,7 +15,7 @@ class EmailAddressParser
         @email_addresses[email].delete
       end
     end  
-    
+  end
     
 end
 
