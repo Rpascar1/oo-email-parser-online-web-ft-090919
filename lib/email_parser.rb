@@ -10,7 +10,9 @@ class EmailAddressParser
 
     def parse
       @email_addresses.delete(",").split
-    
+      @email_addresses.each do |email|
+      if @email_addresses.include? email
+        @email_addresses[email].delete
     end  
     
     
